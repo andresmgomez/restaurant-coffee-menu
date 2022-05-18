@@ -1,6 +1,6 @@
-## Fetch data from Sample APIs
+## Render a List of Cofees
 
-A single webpage that uses bootstrap breakpoints to render the minimal responsive stylesheets for every list of coffee.
+A single webpage that uses bootstrap breakpoints to render the minimal responsive stylesheets for every list of coffee, and makes a GET request to sampleapis URLDUC.
 
 ### Quick Overview
 
