@@ -1,4 +1,4 @@
-const icedCoffeeList = document.getElementById('iced-coffee');
+// const icedCoffeeList = document.getElementById('iced-coffee');
 const coffeeList = document.getElementById('hot-coffee');
 const coffeeAPI = `https://api.sampleapis.com/coffee/hot`;
 
