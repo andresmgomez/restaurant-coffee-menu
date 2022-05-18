@@ -3,11 +3,12 @@
 }
 
 .section-padding {
-   padding: 110px 0;
+   padding: 70px 0;
 }
 
 .section-heading {
    margin: 0 auto;
+   padding-bottom: 30px;
 }
 
 .section-heading .title {
@@ -16,12 +17,13 @@
    color: #c7a17a;
    line-height: 1.25;
    letter-spacing: 0.25px;
+   text-transform: capitalize;
 }
 
 .section-heading .subtitle {
    margin-bottom: 10px;
-   font-size: 40px;
-   text-transform: capitalize;
+   font-size: 32px;
+   color: #23201c;
 }
 
 .coffee-list {
@@ -40,5 +42,6 @@
 
 .coffee-title {
    font-size: 20px;
+   color: #7e4b18;
    letter-spacing: 0.5px;
 }
