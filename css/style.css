@@ -5,3 +5,21 @@
 .section-padding {
    padding: 110px 0;
 }
+
+.section-heading {
+   margin: 0 auto;
+}
+
+.section-heading .title {
+   margin-bottom: 10px;
+   font-size: 18px;
+   color: #c7a17a;
+   line-height: 1.25;
+   letter-spacing: 0.25px;
+}
+
+.section-heading .subtitle {
+   margin-bottom: 10px;
+   font-size: 40px;
+   text-transform: capitalize;
+}
