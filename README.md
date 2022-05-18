@@ -1,6 +1,6 @@
-## Render a List of Cofees
+## Render a List of Coffees
 
-A single webpage that uses bootstrap breakpoints to render the minimal responsive stylesheets for every list of coffee, and makes a GET request to sampleapis URLDUC.
+A single webpage that uses bootstrap breakpoints to render the minimal responsive stylesheets for every list of coffee, and makes a GET request to sampleapis URL.
 
 ### Quick Overview
 
