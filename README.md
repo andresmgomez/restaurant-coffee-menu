@@ -4,7 +4,7 @@ A single webpage that uses bootstrap breakpoints to render the minimal responsiv
 
 ### Quick Overview
 
-The selection of different screen sizes' viewports has been decided after reviewing bootstrap documentation on breakpoints and [media queries](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+The selection of different screen sizes' viewports has been chosen after reviewing bootstrap documentation on breakpoints and [media queries](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 
 ### Build with
 
