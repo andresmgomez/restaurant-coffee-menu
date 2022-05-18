@@ -35,8 +35,8 @@
 }
 
 .coffee-details {
-   max-width: 350px;
-   margin-right: auto;
+   max-width: 550px;
+   margin: auto;
    padding-right: 20px;
 }
 
@@ -45,4 +45,11 @@
    font-weight: 700;
    color: #6d3a07;
    letter-spacing: 0.5px;
+}
+
+.coffee-description {
+   font-size: 14px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
