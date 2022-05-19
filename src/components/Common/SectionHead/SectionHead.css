@@ -1,0 +1,19 @@
+.section-heading {
+   margin: 0 auto;
+   padding-bottom: 30px;
+}
+
+.section-heading .title {
+   margin-bottom: 10px;
+   font-size: 18px;
+   color: #c7a17a;
+   line-height: 1.25;
+   letter-spacing: 0.25px;
+   text-transform: capitalize;
+}
+
+.section-heading .subtitle {
+   margin-bottom: 10px;
+   font-size: 28px;
+   color: #23201c;
+}

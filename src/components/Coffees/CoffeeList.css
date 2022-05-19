@@ -1,0 +1,7 @@
+.coffee-list {
+   position: relative;
+   display: flex;
+   margin-left: 43px;
+   padding: 20px 70px 0;
+   border: 1px solid #e5e5e5;
+}
