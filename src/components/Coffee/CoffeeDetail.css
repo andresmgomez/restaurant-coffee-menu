@@ -1,12 +1,12 @@
 .coffee-details {
-   max-width: 550px;
+   max-width: 555px;
    margin: auto;
    padding-right: 20px;
 }
 
 @media only screen and (max-width: 767px) {
    .coffee-details {
-      padding: 0 8%;;
+      padding: 0 8%;
    }
 }
 
@@ -30,6 +30,7 @@
 }
 
 .coffee-description {
+   padding-bottom: 20px;
    font-size: 14px;
    white-space: nowrap;
    overflow: hidden;
