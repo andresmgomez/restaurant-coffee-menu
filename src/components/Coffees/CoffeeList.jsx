@@ -19,15 +19,15 @@ export default function CoffeeList() {
    return (
       <>
          <div className="row">
-            <div className="col-sm-12 col-lg-6 col-xl-3">
-               {coffeeList && (
-                  <article className="coffee-list">
-                     {coffeeList.map(eachCoffee => {
-                        return <CoffeeDetail title={eachCoffee.title} description={eachCoffee.description} />
-                     })}
-                  </article>
-               )}
-            </div>
+               {coffeeList.map(eachCoffee => {
+                  return (
+                     <div className="col-12 col-lg-6 col-xl-4">
+                        <article className="coffee-list">
+                           <CoffeeDetail title={eachCoffee.title} description={eachCoffee.description} />
+                        </article>
+                     </div>
+                  )
+               })}
          </div>
       </>
    )
