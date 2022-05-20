@@ -7,7 +7,8 @@ export default function CoffeeList() {
          <div className="row">
             <div className="col-12 col-lg-6 col-xl-3">
                <article className="coffee-list">
-               <CoffeeDetail />
+                  <CoffeeDetail />
+                  <CoffeeDetail />
                </article>
             </div>
          </div>

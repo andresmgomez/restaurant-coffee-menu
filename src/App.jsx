@@ -4,7 +4,7 @@ import SectionMain from './components/Common/SectionMain/SectionMain';
 
 export default function App() {
   return (
-    <main class="main-area">
+    <main className="main-area">
       <SectionMain />
       <CoffeeList />
     </main>

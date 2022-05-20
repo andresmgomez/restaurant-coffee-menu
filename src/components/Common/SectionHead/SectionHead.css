@@ -1,6 +1,6 @@
 .section-heading {
    margin: 0 auto;
-   padding-bottom: 30px;
+   padding-bottom: 20px;
 }
 
 .section-heading .title {
@@ -16,4 +16,28 @@
    margin-bottom: 10px;
    font-size: 28px;
    color: #23201c;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .section-heading .title {
+      font-size: 16px;
+   }  
+   .section-heading .subtitle {
+      font-size: 32px;
+   } 
+}
+
+@media only screen and (max-width: 767px) {
+   .section-heading .subtitle {
+      font-size: 24px;
+   }
+}
+
+@media only screen and (max-width: 479px) {
+   .section-heading .title {
+      font-size: 17px;
+   }
+   .section-heading .subtitle {
+      font-size: 21px
+   }
 }
