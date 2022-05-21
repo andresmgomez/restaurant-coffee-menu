@@ -4,9 +4,12 @@ import MainSection from '../Sections/MainSection'
 export default function MainWrapper() {
    return (
       <>
-         <div className="site-wrapper">
+         <div className="main-wrapper">
             <div className="container">
-               <MainSection />
+               <MainSection 
+                  title="Our Best Selection" 
+                  subtitle="Variety of Types in Hot Coffees" 
+               />
             </div>
          </div>
       </>

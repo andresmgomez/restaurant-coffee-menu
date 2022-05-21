@@ -1,11 +1,11 @@
 import './MainSection.css'
 
-export default function MainSection() {
+export default function MainSection(props) {
    return (
       <>
          <div className="section-heading text-center">
-            <h2 className="title">Our Best Selection</h2>
-            <h3 className="subtitle">Variety on Lists of Coffees</h3>
+            <h2 className="title">{props.title}</h2>
+            <h3 className="subtitle">{props.subtitle}</h3>
          </div>
       </>
    )

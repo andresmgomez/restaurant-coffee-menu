@@ -89,7 +89,8 @@
 
 /* This shows the coffee description
 after you hover in the paragraph */
-.coffee-description:hover {
+
+/* .coffee-description:hover {
    white-space:inherit;
    cursor: pointer;
-}
+} */

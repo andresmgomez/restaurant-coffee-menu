@@ -23,7 +23,10 @@ export default function CoffeeList() {
                   return (
                      <div className="col-12 col-lg-6 col-xl-4">
                         <section className="coffee-list">
-                           <CoffeeDetail title={eachCoffee.title} description={eachCoffee.description} />
+                           <CoffeeDetail 
+                              title={eachCoffee.title} 
+                              description={eachCoffee.description} 
+                           />
                         </section>
                      </div>
                   )
