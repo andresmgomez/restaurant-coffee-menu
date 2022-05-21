@@ -24,3 +24,5 @@ yarn-error.log*
 
 # static site
 /static
+
+exercise.js

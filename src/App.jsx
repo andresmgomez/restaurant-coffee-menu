@@ -1,12 +1,14 @@
 import './App.css'
 import CoffeeList from './components/Coffees/CoffeeList';
-import SectionMain from './components/Common/SectionMain/SectionMain';
+import MainWrapper from './components/Common/Wrappers/MainWrapper';
 
 export default function App() {
   return (
-    <main className="main-area">
-      <SectionMain />
-      <CoffeeList />
+    <main id="main-area">
+      <article id="cafeteria">
+        <MainWrapper />
+        <CoffeeList />
+      </article>
     </main>
   );
 }

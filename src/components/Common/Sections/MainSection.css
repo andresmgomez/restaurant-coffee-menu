@@ -1,0 +1,76 @@
+.section-heading {
+   margin: 0 auto;
+}
+
+.section-heading .title {
+   margin-bottom: 10px;
+   font-size: 18px;
+   color: #c7a17a;
+   line-height: 1.25;
+   letter-spacing: 0.25px;
+   text-transform: capitalize;
+}
+
+.section-heading .subtitle {
+   font-size: 28px;
+   color: #23201c;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 912px) {
+   .section-heading {
+      margin-bottom: -10px;
+   }
+   .section-heading .title {
+      font-size: 20px;
+   }  
+   .section-heading .subtitle {
+      font-size: 30px;
+   } 
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+   .section-heading {
+      margin-bottom: -5px;
+   }
+   .section-heading .subtitle {
+      font-size: 22px;
+   }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 479px) {
+   .section-heading {
+      margin-bottom: -20px;
+   }
+   .section-heading .title {
+      font-size: 18px;
+   }
+   .section-heading .subtitle {
+      font-size: 22px
+   }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 393px) {
+   .section-heading {
+      padding-top: 10px;
+      padding-bottom: 0;
+   }
+   .section-heading .title {
+      font-size: 15px;
+   }
+   .section-heading .subtitle {
+      font-size: 21px;
+   }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+   .section-heading {
+      padding-top: 10px;
+      padding-bottom: 0;
+   }
+   .section-heading .title {
+      font-size: 12px;
+   }
+   .section-heading .subtitle {
+      font-size: 15px;
+   }
+}

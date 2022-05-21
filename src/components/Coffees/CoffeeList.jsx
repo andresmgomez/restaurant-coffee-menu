@@ -22,9 +22,9 @@ export default function CoffeeList() {
                {coffeeList.map(eachCoffee => {
                   return (
                      <div className="col-12 col-lg-6 col-xl-4">
-                        <article className="coffee-list">
+                        <section className="coffee-list">
                            <CoffeeDetail title={eachCoffee.title} description={eachCoffee.description} />
-                        </article>
+                        </section>
                      </div>
                   )
                })}
