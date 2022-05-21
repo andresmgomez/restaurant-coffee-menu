@@ -1,0 +1,36 @@
+.coffee-list {
+   position: relative;
+   margin-left: 0;
+   border: none;
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1280px) {
+   .coffee-list {
+      display: flex;
+      flex-direction: row;
+      margin-left: 10%;
+   }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+   .coffee-list {
+      display: flex;
+      flex-direction: row;
+      margin-left: 10%;
+   }
+}
+
+@media only screen and (min-width: 475px) and (max-width: 720px) {
+   .coffee-list {
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+@media only screen and (max-width: 479px) {
+   .coffee-list {
+      margin-top: 0;
+      flex-direction: column;
+      text-align: center;
+   }
+}
